@@ -1,0 +1,10 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="1in" height="1in" viewBox="0 0 72 72">
+  <title>icon</title>
+  <g>
+    <path d="M23.2,52.9H9.1a5.7,5.7,0,0,1-5.7-5.7V10.6A5.7,5.7,0,0,1,9.1,4.9H62.7a5.7,5.7,0,0,1,5.7,5.7V36" fill="none" stroke="#9d2441" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25"/>
+    <polyline points="23.2 47.3 14.7 47.3 14.7 10.6 59.9 10.6 59.9 36" fill="none" stroke="#9d2441" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25"/>
+    <path d="M64.2,27.5a1.4,1.4,0,1,0,1.4,1.4,1.4,1.4,0,0,0-1.4-1.4h0Z" fill="none" stroke="#9d2441" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25"/>
+    <path d="M51.4,41.1V26c0-1.5-.6-2.7-2.1-2.7H45.2c-1.5,0-2.3,1.2-2.3,2.7V52.1l-4.9-5.8a2.9,2.9,0,0,0-2.3-1H33a2.8,2.8,0,0,0-2.4,4.1L41.2,68.5a2.7,2.7,0,0,0,2.4,1.4h18a2.7,2.7,0,0,0,2.5-1.7l4.3-18.9a2.7,2.7,0,0,0-1.7-2.7Z" fill="none" stroke="#9d2441" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25"/>
+    <path d="M10.5,28.9a1.4,1.4,0,0,1-1.4,1.4h0a1.4,1.4,0,0,1-1.4-1.4h0a1.4,1.4,0,0,1,1.4-1.4h0a1.4,1.4,0,0,1,1.4,1.4h0Z" fill="none" stroke="#9d2441" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25"/>
+  </g>
+</svg>

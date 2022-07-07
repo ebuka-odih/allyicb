@@ -1,0 +1,15 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="1in" height="1in" viewBox="0 0 72 72">
+  <title>icon</title>
+  <g>
+    <line x1="2.4" y1="36" x2="68" y2="36" fill="none" stroke="#9d2441" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25"/>
+    <path d="M59.4,42a0.6,0.6,0,0,1,.2-0.9L67.7,36l-8.1-5.1a0.6,0.6,0,0,1,.7-1.1l8.9,5.7a0.6,0.6,0,0,1,0,1.1l-8.9,5.7H60A0.6,0.6,0,0,1,59.4,42Z" fill="#9d2441"/>
+  </g>
+  <g>
+    <path d="M68.4,12.3C63.6,17,43.3,36,22.9,36" fill="none" stroke="#9d2441" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25"/>
+    <path d="M58.1,13.9a0.6,0.6,0,0,0,.7.5l9.4-1.9L66,21.7a0.6,0.6,0,0,0,1.2.3l2.4-10.3a0.6,0.6,0,0,0-.7-0.8L58.6,13.1l-0.3.2A0.6,0.6,0,0,0,58.1,13.9Z" fill="#9d2441"/>
+  </g>
+  <g>
+    <path d="M68.4,59.7C63.6,55,43.3,36,22.9,36" fill="none" stroke="#9d2441" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25"/>
+    <path d="M66.4,49.5a0.6,0.6,0,0,0-.5.8l2.2,9.3-9.4-1.9a0.6,0.6,0,0,0-.3,1.2L68.9,61a0.6,0.6,0,0,0,.7-0.8L67.2,50,67,49.7A0.6,0.6,0,0,0,66.4,49.5Z" fill="#9d2441"/>
+  </g>
+</svg>

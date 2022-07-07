@@ -1,0 +1,17 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="1in" height="1in" viewBox="0 0 72 72">
+  <title>icon</title>
+  <g>
+    <g>
+      <path d="M30.1,42.2A5.9,5.9,0,1,0,36,36.3a5.9,5.9,0,1,1,5.9-5.9" fill="none" stroke="#9d2441" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25"/>
+      <line x1="36" y1="48.2" x2="36" y2="52.1" fill="none" stroke="#9d2441" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25"/>
+      <line x1="36" y1="20.5" x2="36" y2="24.4" fill="none" stroke="#9d2441" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25"/>
+    </g>
+    <g>
+      <rect x="17.4" y="3" width="37.3" height="65.91" rx="5.7" ry="5.7" fill="none" stroke="#9d2441" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25"/>
+      <line x1="54.6" y1="14.5" x2="17.4" y2="14.5" fill="none" stroke="#9d2441" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25"/>
+      <line x1="54.6" y1="57.5" x2="17.4" y2="57.5" fill="none" stroke="#9d2441" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25"/>
+      <line x1="28.8" y1="8.8" x2="43.2" y2="8.8" fill="none" stroke="#9d2441" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25"/>
+      <path d="M37.4,63.2A1.4,1.4,0,0,1,36,64.7h0a1.4,1.4,0,0,1-1.4-1.4h0A1.4,1.4,0,0,1,36,61.8h0a1.4,1.4,0,0,1,1.4,1.4h0Z" fill="none" stroke="#9d2441" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25"/>
+    </g>
+  </g>
+</svg>

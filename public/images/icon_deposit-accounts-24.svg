@@ -1,0 +1,16 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="1in" height="1in" viewBox="0 0 72 72">
+  <title>icon</title>
+  <g>
+    <ellipse cx="29.2" cy="37.4" rx="13.6" ry="2.7" fill="none" stroke="#9d2441" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25"/>
+    <path d="M15.6,37.4v5.4c0,1.5,6.1,2.7,13.6,2.7s13.6-1.2,13.6-2.7V37.4" fill="none" stroke="#9d2441" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25"/>
+    <path d="M42.8,42.8v5.4c0,1.5-6.1,2.7-13.6,2.7s-13.6-1.2-13.6-2.7V42.8" fill="none" stroke="#9d2441" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25"/>
+    <path d="M42.8,48.2v5.4c0,1.5-6.1,2.7-13.6,2.7s-13.6-1.2-13.6-2.7V48.2" fill="none" stroke="#9d2441" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25"/>
+    <path d="M42.8,53.7v5.4c0,1.5-6.1,2.7-13.6,2.7s-13.6-1.2-13.6-2.7V53.7" fill="none" stroke="#9d2441" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25"/>
+    <path d="M42.8,59.1v5.4c0,1.5-6.1,2.7-13.6,2.7S15.6,66,15.6,64.5V59.1" fill="none" stroke="#9d2441" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25"/>
+    <polyline points="15.6 42.8 4.8 42.8 4.8 4.8 67.2 4.8 67.2 42.8 42.8 42.8" fill="none" stroke="#9d2441" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25"/>
+    <circle cx="36" cy="23.8" r="8.1" fill="none" stroke="#9d2441" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25"/>
+    <circle cx="17" cy="17" r="1.4" fill="none" stroke="#9d2441" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25"/>
+    <circle cx="55" cy="30.6" r="1.4" fill="none" stroke="#9d2441" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25"/>
+    <path d="M15.6,37.4a5.4,5.4,0,0,1-5.4-5.4V15.6a5.4,5.4,0,0,1,5.4-5.4H56.4a5.4,5.4,0,0,1,5.4,5.4V31.9a5.4,5.4,0,0,1-5.4,5.4H42.8" fill="none" stroke="#9d2441" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25"/>
+  </g>
+</svg>

@@ -1,0 +1,12 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="1in" height="1in" viewBox="0 0 72 72">
+  <title>icon</title>
+  <g>
+    <path d="M36.6,69.9c-17.7-23.6-17.7-48.7,0-67.9" fill="none" stroke="#9d2441" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25"/>
+    <line x1="8.5" y1="52.2" x2="39.5" y2="52.2" fill="none" stroke="#9d2441" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25"/>
+    <line x1="7.9" y1="19.8" x2="39.5" y2="19.8" fill="none" stroke="#9d2441" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25"/>
+    <line x1="4.3" y1="34.5" x2="39.5" y2="34.5" fill="none" stroke="#9d2441" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25"/>
+    <path d="M39.5,2.1H38c-18.8,0-34,14.4-34,33.2S19.1,70,37.9,70h1.6V2.1Z" fill="none" stroke="#9d2441" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25"/>
+    <path d="M46.5,46.6A10.7,10.7,0,1,0,57.2,35.9,10.7,10.7,0,1,1,67.9,25.2" fill="none" stroke="#9d2441" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25"/>
+    <line x1="57.2" y1="8.1" x2="57.2" y2="63.7" fill="none" stroke="#9d2441" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25"/>
+  </g>
+</svg>

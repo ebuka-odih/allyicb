@@ -1,0 +1,151 @@
+﻿/* ::::: https://atonline.alliancetrust.co.uk/atonline/css/i.nvest/styles.css ::::: */
+
+body { margin: 0px; background-color: rgb(238, 238, 238); font-family: Verdana,Arial,Helvetica,sans-serif; }
+#container { max-width: 80%; min-width: 1000px; background-color: rgb(255, 255, 255); max-height: none; margin: auto; border-left: 1px solid rgb(215, 215, 216); border-right: 1px solid rgb(215, 215, 216); }
+#header {
+	width: 100%;
+	background-color: rgb(255, 255, 255);
+	height: 110px;
+	background-image: url('topbgd.png');
+	background-repeat: repeat-x;
+}
+#logo { width: 279px; float: left; height: 91px; }
+#top-links {
+	width: 450px;
+	margin-right: 20px;
+	float: right;
+	background-color: rgb(255, 255, 255);
+	height: 91px;
+	background-image: url('topbgd.png');
+}
+#top-nav { width: 450px; background-color: rgb(255, 255, 255); padding: 3px 0px 8px; max-height: none; }
+#nav { width: 100%; background-image: url('nav-back.jpg'); background-repeat: repeat-x; padding: 0px; height: 31px; vertical-align: middle; }
+#breadcrumb { width: 100%; background-color: rgb(248, 248, 249); padding-top: 2px; padding-bottom: 10px; height: 14px; border-bottom: 1px solid rgb(222, 222, 224); }
+#breadcrumb-text { float: left; width: 520px; background-color: rgb(248, 248, 249); margin-left: 20px; }
+#breadcrumb-nav { float: right; width: 410px; background-color: rgb(248, 248, 249); margin-right: 20px; text-align: right; }
+#body-area-top { margin-top: 15px; width: 100%; background-color: rgb(255, 255, 255); max-height: none; }
+#body-area-top:after { content: "."; visibility: hidden; height: 0px; clear: both; display: block; }
+#page-title { float: left; margin-left: 20px; margin-top: 20px; background-color: rgb(255, 255, 255); }
+#form-nav-buttons-no-trailer { margin-top: 10px; padding-bottom: 15px; width: 96%; max-height: none; background-color: rgb(255, 255, 255); }
+#footer-top { width: 100%; background-color: rgb(102, 103, 105); border-bottom: 1px solid rgb(129, 130, 131); max-height: none; font-family: "myriad-pro",sans-serif; color: rgb(255, 255, 255); font-size: 0.95em; font-weight: bold; height: 40px; vertical-align: middle; }
+#footer-top a { width: 100%; background-color: rgb(102, 103, 105); max-height: none; font-family: "myriad-pro",sans-serif; text-decoration: none; color: rgb(255, 255, 255); font-size: 1em; font-weight: bold; height: 35px; vertical-align: middle; }
+#footer-top a:hover { width: 100%; background-color: rgb(102, 103, 105); max-height: none; font-family: "myriad-pro",sans-serif; text-decoration: underline; color: rgb(136, 216, 246); font-size: 1em; font-weight: bold; height: 35px; vertical-align: middle; }
+#footer-top-panel { float: left; margin-top: 6px; margin-left: 20px; vertical-align: middle; max-height: none; text-align: left; }
+#footer-top-panel2 { float: left; margin-top: 6px; margin-left: 4%; vertical-align: middle; max-height: none; text-align: left; }
+#footer-bottom { width: 100%; background-color: rgb(203, 139, 153); max-height: none; border-top: 1px solid rgb(129, 130, 131); padding: 20px 0px; }
+#footer-bottom-text { width: 93%; background-color: rgb(203, 139, 153); max-height: none; font-family: Verdana,Arial,Helvetica,sans-serif; font-weight: bold; color: rgb(255, 255, 255); font-size: 0.6em; padding: 0px 0px 0px 20px; text-align: center; }
+#hor-minimalist-b { font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 11px; background: none repeat scroll 0% 0% rgb(255, 255, 255); border-collapse: collapse; }
+#hor-minimalist-b > TBODY > tr > th, #hor-minimalist-b > THEAD > tr > th { font-size: 1em; font-weight: bold; color: rgb(0, 0, 0); padding: 10px 8px; border-bottom: 1px solid rgb(180, 180, 180); border-top: 1px solid rgb(180, 180, 180); }
+#hor-minimalist-b > TBODY > tr > td, #hor-minimalist-b > THEAD > tr > td { border-bottom: 1px solid rgb(180, 180, 180); color: rgb(0, 0, 0); padding: 10px 8px; }
+#hor-minimalist-b .odd { background: none repeat scroll 0% 0% rgb(247, 247, 247); }
+.breadcrumb { font-family: Verdana,Arial,Helvetica,sans-serif; color: rgb(0, 0, 0); font-size: 0.71em; line-height: 20px; }
+.breadcrumb a { font-family: Verdana,Arial,Helvetica,sans-serif; color: rgb(102, 102, 102); text-decoration: underline; font-size: 1em; line-height: 20px; }
+.breadcrumb a:hover { font-family: Verdana,Arial,Helvetica,sans-serif; color: rgb(0, 0, 255); text-decoration: underline; font-size: 1em; line-height: 20px; }
+.fieldTitle { font-weight: bold; text-align: left; }
+h1 { color: rgb(119, 20, 105); font-size: 22px; line-height: 0px; font-family: "myriad-pro",sans-serif; }
+.ph-black { color: rgb(0, 0, 0); }
+.btn { display: inline-block; padding: 4px 10px; margin-bottom: 0px; font-size: 10px; font-weight: bold; font-family: Verdana,Arial,Helvetica,sans-serif; line-height: 18px; color: rgb(51, 51, 51); text-align: center; text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.75); vertical-align: middle; text-decoration: none; cursor: pointer; background-color: rgb(245, 245, 245); background-image: -moz-linear-gradient(center top , rgb(255, 255, 255), rgb(230, 230, 230)); background-repeat: repeat-x; border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204) rgb(204, 204, 204) rgb(179, 179, 179); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; border-radius: 4px 4px 4px 4px; box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.2) inset, 0px 1px 2px rgba(0, 0, 0, 0.05); }
+.btn:hover, .btn:active, .btn.active, .btn.disabled, .btn[disabled] { background-color: rgb(230, 230, 230); }
+.btn:active, .btn.active {  }
+.btn:first-child {  }
+.btn:hover { color: rgb(51, 51, 51); text-decoration: none; background-color: rgb(230, 230, 230); background-position: 0px -15px; transition: background-position 0.1s linear 0s; }
+.btn:focus { outline: thin dotted rgb(51, 51, 51); outline-offset: -2px; }
+.btn.active, .btn:active { background-color: rgb(230, 230, 230); background-image: none; outline: 0px none; box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15) inset, 0px 1px 2px rgba(0, 0, 0, 0.05); }
+.btn-large { padding: 9px 14px; font-size: 12px; line-height: normal; border-radius: 5px 5px 5px 5px; }
+.btn-primary, .btn-primary:hover, .btn-warning, .btn-warning:hover, .btn-danger, .btn-danger:hover, .btn-success, .btn-success:hover, .btn-info, .btn-info:hover, .btn-inverse, .btn-inverse:hover { color: rgb(255, 255, 255); text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.25); }
+.btn { border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25); }
+.btn-primary { background-color: rgb(0, 152, 209); background-image: -moz-linear-gradient(center top , rgb(68, 183, 241), rgb(1, 136, 186)); background-repeat: repeat-x; border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25); }
+.btn-primary:hover, .btn-primary:active, .btn-primary.active, .btn-primary.disabled, .btn-primary[disabled] { background-color: rgb(1, 136, 186); }
+.btn-primary:active, .btn-primary.active {  }
+/* ::::: https://atonline.alliancetrust.co.uk/atonline/css/i.nvest/buttons.css ::::: */
+
+/* ::::: https://atonline.alliancetrust.co.uk/atonline/css/i.nvest/dojo-override.css ::::: */
+
+.claro .dijitCheckBox, .claro .dijitSelect, .claro .dijitSelect .dijitButtonContents, .claro .dijitTextBox, .claro .dijitTextBox .dijitButtonNode { transition-duration: 0.35s ! important; transition-property: background-color, border ! important; border-color: rgb(61, 39, 62) ! important; }
+.claro .dijitSelect .dijitArrowButton { transition-duration: 0.35s ! important; transition-property: background-color, border ! important; border-color: rgb(61, 39, 62) ! important; }
+.claro .dijitRadio, .claro .dijitRadioIcon, .claro .dijitToggleButton .dijitRadio, .claro .dijitToggleButton .dijitRadioIcon, .claro .dijitCheckBox, .claro .dijitCheckBoxIcon { background-image: url('checkboxradiobuttonstates.html') ! important; }
+/* ::::: https://atonline.alliancetrust.co.uk/atonline/css/jquery.qtip.css ::::: */
+
+/* ::::: https://atonline.alliancetrust.co.uk/dojo-1.8.0/dijit/themes/claro/claro.css ::::: */
+
+.dijitReset { margin: 0px; border: 0px none; padding: 0px; font: inherit; color: inherit; }
+.dijitInline { display: inline-block; border: 0px none; padding: 0px; vertical-align: middle; }
+table.dijitInline { display: inline-table; -moz-box-sizing: content-box; }
+.dj_ie6 .dijitComboBox .dijitInputContainer, .dijitInputContainer { overflow: hidden; float: none ! important; position: relative; }
+.dijitSelect .dijitButtonText { float: left; vertical-align: top; }
+TABLE.dijitSelect { padding: 0px ! important; }
+.dijitTextBox .dijitSpinnerButtonContainer, .dijitTextBox .dijitArrowButtonContainer, .dijitValidationTextBox .dijitValidationContainer { float: right; text-align: center; }
+.dijitSelect input.dijitInputField, .dijitTextBox input.dijitInputField { padding-left: 0px ! important; padding-right: 0px ! important; }
+.dijitValidationTextBox .dijitValidationContainer { display: none; }
+.dijitButtonNode * { vertical-align: middle; }
+.dijitSelect .dijitArrowButtonInner, .dijitButtonNode .dijitArrowButtonInner { background: none no-repeat scroll center center transparent; width: 12px; height: 12px; direction: ltr; }
+.dijitLeft { background-position: left top; background-repeat: no-repeat; }
+.dijitStretch { white-space: nowrap; background-repeat: repeat-x; }
+.dijitRight { background-position: right top; background-repeat: no-repeat; }
+.dijitButtonContents { display: block; }
+td.dijitButtonContents { display: table-cell; }
+.dj_gecko .dijitToolbar .dijitButtonNode::-moz-focus-inner { padding: 0px; }
+.dijitSelect { border: 1px solid gray; }
+.dijitButtonNode { border: 1px solid gray; margin: 0px; line-height: normal; vertical-align: middle; text-align: center; white-space: nowrap; }
+.dijitTextBox .dijitButtonNode { border-width: 0px; }
+.dijitSelect, .dijitSelect *, .dijitButtonNode, .dijitButtonNode * { cursor: pointer; }
+div.dijitArrowButton { float: right; }
+.dijitTextBox { border: 1px solid black; width: 15em; vertical-align: middle; }
+.dijitTextBox input:focus { outline: medium none; }
+.dijitSelect input, .dijitTextBox input { float: left; }
+.dijitInputInner { border: 0px none ! important; background-color: transparent ! important; width: 100% ! important; padding-left: 0px ! important; padding-right: 0px ! important; margin-left: 0px ! important; margin-right: 0px ! important; }
+.dijitValidationTextBoxError input.dijitValidationInner, .dijitSelect input, .dijitTextBox input.dijitArrowButtonInner { text-indent: -2em ! important; direction: ltr ! important; text-align: left ! important; height: auto ! important; }
+.dj_ie6 .dijitSelect .dijitSelectLabel, .dj_ie7 .dijitSelect .dijitSelectLabel, .dj_ie8 .dijitSelect .dijitSelectLabel, .dj_iequirks .dijitSelect .dijitSelectLabel, .dijitSelect td, .dj_ie6 .dijitSelect input, .dj_iequirks .dijitSelect input, .dj_ie6 .dijitSelect .dijitValidationContainer, .dj_ie6 .dijitTextBox input, .dj_ie6 input.dijitTextBox, .dj_iequirks .dijitTextBox input.dijitValidationInner, .dj_iequirks .dijitTextBox input.dijitArrowButtonInner, .dj_iequirks .dijitTextBox input.dijitSpinnerButtonInner, .dj_iequirks .dijitTextBox input.dijitInputInner, .dj_iequirks input.dijitTextBox { line-height: 100%; }
+.dijitSpinner .dijitSpinnerButtonContainer, .dijitComboBox .dijitArrowButtonContainer { border-width: 0px 0px 0px 1px ! important; }
+.dijitComboBox .dijitButtonNode, .dijitSpinnerButtonContainer .dijitButtonNode { border-width: 0px; }
+.dijitCheckBox, .dijitRadio, .dijitCheckBoxInput { padding: 0px; border: 0px none; width: 16px; height: 16px; background-position: center center; background-repeat: no-repeat; overflow: hidden; }
+.dijitCheckBox input, .dijitRadio input { margin: 0px; padding: 0px; display: block; }
+.dijitCheckBoxInput { opacity: 0.01; }
+.dj_ie6 .dijitTextBox .dijitInputContainer, .dj_iequirks .dijitTextBox .dijitInputContainer, .dj_ie6 .dijitTextBox .dijitArrowButtonInner, .dj_ie6 .dijitSpinner .dijitSpinnerButtonInner, .dijitSelect .dijitSelectLabel { vertical-align: baseline; }
+.dijitSelect .dijitButtonContents { padding: 0px; white-space: nowrap; text-align: left; border-style: none solid none none; border-width: 1px; }
+.dijitSelectFixedWidth .dijitButtonContents { width: 100%; }
+.dj_gecko .dijitArrowButtonInner INPUT, .dj_gecko INPUT.dijitArrowButtonInner { -moz-user-focus: ignore; }
+.claro .dijitTextBox, .claro .dijitInputInner { color: rgb(0, 0, 0); }
+.claro .dijitSelect .dijitInputField, .claro .dijitTextBox .dijitInputField { padding: 1px 2px; }
+.dj_gecko .claro .dijitTextBox .dijitInputInner, .dj_webkit .claro .dijitTextBox .dijitInputInner { padding: 1px; }
+.claro .dijitSelect, .claro .dijitSelect .dijitButtonContents, .claro .dijitTextBox, .claro .dijitTextBox .dijitButtonNode { border-color: rgb(181, 188, 199); transition-property: background-color, border; transition-duration: 0.35s; }
+.claro .dijitSelect, .claro .dijitTextBox { background-color: rgb(255, 255, 255); }
+.claro .dijitSelect .dijitArrowButtonInner, .claro .dijitComboBox .dijitArrowButtonInner { background-image: url('commonformarrows.html'); background-position: -35px 53%; background-repeat: no-repeat; margin: 0px; width: 16px; }
+.claro .dijitComboBox .dijitArrowButtonInner { border: 1px solid rgb(255, 255, 255); }
+.claro .dijitSelectLabel, .claro .dijitTextBox .dijitInputInner, .claro .dijitValidationTextBox .dijitValidationContainer { padding: 1px 0px; }
+.claro .dijitComboBox .dijitButtonNode { background-color: rgb(239, 239, 239); background-repeat: repeat-x; background-image: linear-gradient(rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0) 100%); }
+.claro .dijitButtonNode { transition-property: background-color; transition-duration: 0.3s; }
+.claro .dijitArrowButtonInner { width: 15px; height: 15px; margin: 0px auto; background-image: url('buttonarrows.html'); background-repeat: no-repeat; background-position: -51px 53%; }
+.claro .dijitButtonText { padding: 0px 0.3em; text-align: center; }
+.claro .dijitCheckBox, .claro .dijitCheckBoxIcon { background-image: url('checkboxradiobuttonstates_001.html'); background-repeat: no-repeat; width: 15px; height: 16px; margin: 0px 2px 0px 0px; padding: 0px; }
+.claro .dijitCheckBox, .claro .dijitToggleButton .dijitCheckBoxIcon { background-position: -15px center; }
+.claro .dijitSelect .dijitArrowButtonContainer { border: 1px solid rgb(255, 255, 255); }
+.claro .dijitSelect .dijitArrowButton { padding: 0px; background-color: rgb(239, 239, 239); background-repeat: repeat-x; background-image: linear-gradient(rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0) 100%); }
+.claro .dijitSelect .dijitArrowButton .dijitArrowButtonInner { height: 16px; }
+/* ::::: https://use.typekit.net/k/nzw5awh-d.css?3bb2a6e53c9684ffdc9a9bf7195b2a62598733aa752328711c758b0455900c389703c3b49f04657345ea085d948260e9e1bd0cf74c99a01a0d34ed2971a6299e474e8e37803893af6ba9e92df4b1bee59ca9264bb5eff434d6bb42961e17771c813b6b6da470c434565da1726eeced5841 ::::: */
+
+@font-face {
+	font-family: "myriad-pro";
+	font-style: normal;
+	font-weight: 400;
+	src: url('undefined.html');
+}
+@font-face {
+	font-family: "myriad-pro";
+	font-style: italic;
+	font-weight: 400;
+	src: url('undefined.html');
+}
+@font-face {
+	font-family: "myriad-pro";
+	font-style: normal;
+	font-weight: 700;
+	src: url('undefined.html');
+}
+@font-face {
+	font-family: "myriad-pro";
+	font-style: italic;
+	font-weight: 700;
+	src: url('undefined.html');
+}
+#overlay { position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; max-height: none; background-color: white; z-index: 99; opacity: 0.5; }
