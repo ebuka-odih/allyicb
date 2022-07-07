@@ -269,10 +269,10 @@
     <section class="consultation-cta">
         <div class= "row medium-collapse full-width" data-equalizer data-equalize-on="medium">
             <div class="small-12 medium-7 columns consultation-cta-left" data-equalizer-watch>
-                <p x-ms-format-detection="none">Interested in banking with us? Call +1 332 205 6688 or +44 208 040 4435</p>
+                <p x-ms-format-detection="none">Interested in banking with us? Send us a mail <a href="mailto:support@allyicb.com">support@allyicb.com</a></p>
             </div>
-            <a href="index-32.html"  class="small-12 medium-5 columns consultation-cta-right"  data-equalizer-watch>
-                <p>Request a consultation today</p>
+            <a href="contact"  class="small-12 medium-5 columns consultation-cta-right"  data-equalizer-watch>
+                <p>Request a Consultation</p>
             </a>
         </div>
     </section>

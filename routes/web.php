@@ -22,6 +22,12 @@ Route::view('/offering', 'pages.offering')->name('offering');
 Route::view('/credit', 'pages.credit')->name('credit');
 Route::view('/capital-loan', 'pages.capital-loan')->name('capital-loan');
 Route::view('/efficiency', 'pages.efficiency')->name('efficiency');
+Route::view('/medical', 'pages.medical')->name('medical');
+Route::view('/workplace', 'pages.workplace')->name('workplace');
+Route::view('/business', 'pages.business')->name('business');
+Route::view('/our-ceo', 'pages.ceo')->name('ceo');
+Route::view('/attract-and-retain', 'pages.attract-and-retain')->name('attract-and-retain');
+Route::view('/grow-your-medical-practice', 'pages.grow-your-medical-practice')->name('grow-your-medical-practice');
 
 Route::view('/personal/checking', 'pages.personal.checking');
 
@@ -35,7 +41,7 @@ Route::view('legal-copyright-trademarks', 'pages.legal-copyright-trademarks');
 
 
 //Route::view('/','pages.index')->name('index');
-Route::view('/contact-us','pages.contact-us')->name('contact');
+Route::view('/contact','pages.contact')->name('contact');
 Route::view('bank-accounts','pages.bank-accounts')->name('bank_accounts');
 Route::view('register/new-account','pages.new-account')->name('reg');
 

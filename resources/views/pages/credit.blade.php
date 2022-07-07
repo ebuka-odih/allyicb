@@ -152,14 +152,13 @@
     <section class="consultation-cta">
         <div class= "row medium-collapse full-width" data-equalizer data-equalize-on="medium">
             <div class="small-12 medium-7 columns consultation-cta-left" data-equalizer-watch>
-                <p x-ms-format-detection="none">Learn more about credit options </p>
+                <p x-ms-format-detection="none">Interested in banking with us? Send us a mail <a href="mailto:support@allyicb.com">support@allyicb.com</a></p>
             </div>
-            <a href="indexda26da26.html?interested_in=legal-banking"  class="small-12 medium-5 columns consultation-cta-right"  data-equalizer-watch>
-                <p>Request a consultation today</p>
+            <a href="contact"  class="small-12 medium-5 columns consultation-cta-right"  data-equalizer-watch>
+                <p>Request a Consultation</p>
             </a>
         </div>
     </section>
-
 
 @endsection
 

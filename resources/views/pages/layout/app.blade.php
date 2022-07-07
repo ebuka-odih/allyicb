@@ -96,7 +96,7 @@
             <div class="row">
                 <div class="small-12 columns">
                     <div class="logo">
-                        <a href="">
+                        <a href="{{ route('index') }}">
                             <h2 style="color: white">AllyICB</h2>
 {{--                            <img src="images/project-private-bank-logo.png" alt="Project Finance Bank">--}}
                         </a>
@@ -191,10 +191,10 @@
         <div class="row">
             <div class="small-12 medium-12 large-5 columns show-for-large">
                 <div class="menu-footer-menu-container"><ul id="menu-footer-menu" class="menu"><li id="menu-item-88" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-88"><a href="about.html">About Us</a></li>
-                        <li id="menu-item-89" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-89"><a href="careers.html">Careers</a></li>
-                        <li id="menu-item-84" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-84"><a href="contact.html">Contact Us</a></li>
-                        <li id="menu-item-86" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-86"><a href="personal.html">Personal Banking</a></li>
-                        <li id="menu-item-85" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-85"><a href="business.html">Business Banking</a></li>
+                        <li id="menu-item-89" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-89"><a href="careers">Careers</a></li>
+                        <li id="menu-item-84" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-84"><a href="contact">Contact Us</a></li>
+                        <li id="menu-item-86" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-86"><a href="personal">Personal Banking</a></li>
+                        <li id="menu-item-85" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-85"><a href="business">Business Banking</a></li>
 
                     </ul></div>            </div>
             <div class="small-12 medium-4 large-3 columns email">
