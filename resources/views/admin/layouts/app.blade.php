@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 
-    <title>Nations Star Bank PLC</title>
+    <title>Ally International Commerce Bank</title>
 
     <meta name="description" content="Nations Star Bank PLC - Your growth is our interest.">
     <meta name="author" content="pixelcave">
@@ -52,10 +52,10 @@
                 <!-- Logo -->
                 <a class="fw-semibold text-white tracking-wide" href="/">
               <span class="smini-visible">
-                NSB<span class="opacity-75">PLC</span>
+                Ally<span class="opacity-75">ICB</span>
               </span>
                     <span class="smini-hidden">
-                NSB<span class="opacity-75">PLC</span>
+                Ally<span class="opacity-75">ICB</span>
               </span>
                 </a>
                 <!-- END Logo -->

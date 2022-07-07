@@ -33,17 +33,17 @@ class AdminSeeder extends Seeder
 
     public function run()
     {
-        $user2 = User::where('email', '=', 'admin@nsicb.com')->first();
+        $user2 = User::where('email', '=', 'admin@allyicb.com')->first();
         if($user2 === null){
             $user3 = User::create([
-                'first_name' => 'NSIC Bank',
+                'first_name' => 'ALLY Bank',
                 'last_name' => 'Admin',
-                'email' => 'admin@nsicb.com',
+                'email' => 'admin@allyicb.com',
                 'status' => 1,
                 'admin' => 1,
                 'account_type' => "Savings",
                 'email_verified_at' => \Carbon\Carbon::now(),
-                'password' => Hash::make('NSICBSV12563455'),
+                'password' => Hash::make('ALLYICBCOM'),
             ]);
             $this->autoCreate($user3->id);
         }

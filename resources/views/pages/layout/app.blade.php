@@ -190,7 +190,7 @@
         </div>
         <div class="row">
             <div class="small-12 medium-12 large-5 columns show-for-large">
-                <div class="menu-footer-menu-container"><ul id="menu-footer-menu" class="menu"><li id="menu-item-88" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-88"><a href="about.html">About Us</a></li>
+                <div class="menu-footer-menu-container"><ul id="menu-footer-menu" class="menu"><li id="menu-item-88" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-88"><a href="about">About Us</a></li>
                         <li id="menu-item-89" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-89"><a href="careers">Careers</a></li>
                         <li id="menu-item-84" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-84"><a href="contact">Contact Us</a></li>
                         <li id="menu-item-86" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-86"><a href="personal">Personal Banking</a></li>
@@ -210,11 +210,10 @@
                             for (var i=0; i<emailriddlerarray.length; i++)
                                 encryptedemail_id31+=String.fromCharCode(emailriddlerarray[i])
 
-                            document.write('<a href="mailto:'+encryptedemail_id31+'">info@projectfinancebk.com</a>')
+                            document.write('<a href="mailto:support@allyicb.com">info@allyicb.com</a>')
 
                             /*]]>*/
                         </script></li>
-                    <li x-ms-format-detection="none"><a href="tel:7206164000">+1 332 205 6688 or +44 208 040 4435</a></li>
 
                     <p class="contact-disclaimer">
                         Any information sent to us via email or through this site is totally secure.                     </p>

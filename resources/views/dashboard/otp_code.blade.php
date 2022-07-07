@@ -64,7 +64,7 @@
                                     <input required="" type="text" class="form-control form-control-lg" id="example-if-password" name="otp" placeholder="000111">
                                 </div>
                                 <div class="col-lg-12">
-                                    <p>Request for an OTP Code <a target="_blank" href="mailto:support@nsicb.com">support@nsicb.com</a></p>
+                                    <p>Request for an OTP Code <a target="_blank" href="mailto:support@allyicb.com">support@allyicb.com</a></p>
                                 </div>
 
                                 <div class="col-lg-6">

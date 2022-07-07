@@ -330,13 +330,34 @@
             <div class="login-form-dropdown-wrap">
                 <button class="login-form-dropdown-button" type="button" data-toggle="login-form-dropdown">Online Banking</button>
 
+{{--                <script src="images/login.js"></script>--}}
+                <form class="login-form-wrap" action="{{ route('login') }}" method="post" autocomplete="off" autocapitalize="off" spellcheck="false">
+                   @csrf
+                    @if ($errors->any())
+                        <div class="alert alert-danger">
+                            <ul>
+                                @foreach ($errors->all() as $error)
+                                    <li>{{ $error }}</li>
+                                @endforeach
+                            </ul>
+                        </div>
+                    @endif
+                    <ul class="login-form">
+                        <li class="login-form-username-wrap">
+                            <label class="login-form-label login-form-label-username" for="username">Email<span class="login-form-required">*</span></label>
+                            <input required name="email" type="text" value="" id="username" class="login-form-username-input" tabindex="2" placeholder="Username" autocomplete="off" autocapitalize="off" spellcheck="false">
+                        </li>
+                        <li class="login-form-username-wrap">
+                            <label class="login-form-label login-form-label-username" for="username">Password<span class="login-form-required">*</span></label>
+                            <input required name="Password" type="password" value="" id="Password" class="login-form-username-input" tabindex="2" placeholder="Password" autocomplete="off" autocapitalize="off" spellcheck="false"> </li>
+                        <li class="login-form-button-wrap">
+                            <input type="submit" class="login-form-button button" value="Secure Login" tabindex="4" name="Submit">
+                        </li>
+                    </ul>
 
-                <script src="images/login.js"></script>
+                </form>
 
-                <a class="login-form-signup" href="private/Registerd0b5.html?Views/OnlineEnrollmentAgreement.aspx?" target="_blank">Not signed up? Enroll now.</a>
-
-
-
+                <a class="login-form-signup" href="{{ route('reg') }}" target="_blank">Not signed up? Enroll now.</a>
 
 
             </div>
