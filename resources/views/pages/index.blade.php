@@ -280,10 +280,9 @@
     </div>
 
     <div class="row">
-        <div class="small-12 columns">
-            <a href="residential" class="button primary" >Explore Residential Lending</a>
-        </div>
-</section><a class="section-anchor" id="section-5"></a>
+      
+</section>
+<a class="section-anchor" id="section-5"></a>
 <section class="section-bg split_image_section  dark section-bg-image  " style=" background-image: url('images/hunters-race-408744-unsplash.jpg'); background-color: #000; ">
 
     <div class="row align-middle">
