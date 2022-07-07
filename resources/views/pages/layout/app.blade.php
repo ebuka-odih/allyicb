@@ -227,7 +227,7 @@
         <div class="row">
             <div class="small-12 medium-9 large-9 columns">
                 <img class="footer-logo" src="images/project-private-bank-footer-logo.png" width="120px" alt="Project Finance Logo" />
-                <span>Copyright (c) Project Finance Bank. All Rights Reserved. <a href="index-14.html">Terms and Conditions</a>  |  <a href="index-15.html">Privacy Notice</a>  |  <a href="index-16.html">Security and Fraud Prevention</a></span>
+                <span>Copyright (c) Project Finance Bank. All Rights Reserved. <a href="terms-and-conditions">Terms and Conditions</a>  |  <a href="{{ route('privacy') }}">Privacy Notice</a>  |  <a href="{{ route('security') }}">Security and Fraud Prevention</a></span>
             </div>
             <div class="small-12 medium-3 large-3 columns">
                 <ul class="certification-logos">

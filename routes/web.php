@@ -29,7 +29,9 @@ Route::view('/our-ceo', 'pages.ceo')->name('ceo');
 Route::view('/attract-and-retain', 'pages.attract-and-retain')->name('attract-and-retain');
 Route::view('/grow-your-medical-practice', 'pages.grow-your-medical-practice')->name('grow-your-medical-practice');
 
-Route::view('/personal/checking', 'pages.personal.checking');
+Route::view('terms-and-conditions', 'pages.terms-and-conditions');
+Route::view('privacy-notice', 'pages.privacy')->name('privacy');
+Route::view('security-and-fraud-prevention', 'pages.security')->name('security');
 
 //Business Route
 
