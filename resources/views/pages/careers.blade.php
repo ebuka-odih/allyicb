@@ -67,7 +67,7 @@
                 <div class="small-12 medium-6 columns">
                     <div class="split-content wow fadeInLeft">
                         <h3>Do You Have a Growth Mindset and a Desire to Learn?</h3>
-                        <p><p>Every role at PFB is connected to our company strategy and can drive high impact.  As a result, we have assembled top talent from a diverse set of industries, including hospitality, technology, consulting, and financial services.</p>
+                        <p><p>Every role at AllyICB is connected to our company strategy and can drive high impact.  As a result, we have assembled top talent from a diverse set of industries, including hospitality, technology, consulting, and financial services.</p>
                         <p>Our people have joined us from best-in-class companies such as Microsoft, BCG, RSM, Ritz Carlton, Marriott, Norwegian Cruise Lines, US Bank, UMB, Zions Bank, and Goldman Sachs.  In joining Project Finance Bank you will have the opportunity to both drive huge impact and partner with some of the incredible talent already on our private banking team.</p>
                         </p>
                     </div>
@@ -90,7 +90,7 @@
                 </div>
                 <div class="small-12 medium-6 medium-offset-1 columns">
                     <div class="split-content wow fadeInRight">
-                        <h3>How We Care for the PFB Team</h3>
+                        <h3>How We Care for the AllyICB Team</h3>
                         <p><p>Our employees enjoy a wide range of benefits including </p>
                         <ul>
                             <li>100% paid medical insurance premiums for employees</li>

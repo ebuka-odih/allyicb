@@ -15,6 +15,13 @@ use Illuminate\Support\Facades\Route;
 
 Route::view('/', 'pages.index')->name('index');
 Route::view('/careers', 'pages.careers')->name('careers');
+Route::view('/personal', 'pages.personal')->name('personal');
+Route::view('/treasury', 'pages.treasury')->name('treasury');
+Route::view('/lawfirm', 'pages.lawfirm')->name('lawfirm');
+Route::view('/offering', 'pages.offering')->name('offering');
+Route::view('/credit', 'pages.credit')->name('credit');
+Route::view('/capital-loan', 'pages.capital-loan')->name('capital-loan');
+Route::view('/efficiency', 'pages.efficiency')->name('efficiency');
 
 Route::view('/personal/checking', 'pages.personal.checking');
 

@@ -8,12 +8,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-
-
     <title>Project Finance Bank - Empowering Clients to Achieve More</title>
-
-
-    <link rel="stylesheet" type="text/css" href="images/956790d45897b7e31.css" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('images/956790d45897b7e31.css') }}" />
     <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
     <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="images/favicon-16x16.html" sizes="16x16">
@@ -47,13 +43,13 @@
     <link rel='dns-prefetch' href='http://cdnjs.cloudflare.com/' />
     <link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
     <link rel='dns-prefetch' href='http://s.w.org/' />
-    <link rel='stylesheet' id='wp-block-library-css'  href='images/style.min.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='stylesheet-css'  href='images/style.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='wp-block-library-css'  href='{{ asset('images/style.min.css') }}' type='text/css' media='all' />
+    <link rel='stylesheet' id='stylesheet-css'  href='{{ asset('images/style.css') }}' type='text/css' media='all' />
     <link rel='stylesheet' id='lato-css'  href='https://fonts.googleapis.com/css?family=Lato%3A300%2C400%2C400i%2C700' type='text/css' media='all' />
     <link rel='stylesheet' id='droid-serif-css'  href='https://fonts.googleapis.com/css?family=Droid+Serif%3A400%2C400i%2C700%2C700i' type='text/css' media='all' />
-    <script type='text/javascript' src='images/jquery.min.js'></script>
-    <script type='text/javascript' src='images/iframe-resizer.js'></script>
-    <link rel='https://api.w.org/' href='index-2.html' />
+    <script type='text/javascript' src='{{ asset('images/jquery.min.js') }}'></script>
+    <script type='text/javascript' src='{{ asset('images/iframe-resizer.js') }}'></script>
+    <link rel='https://api.w.org/' href='/' />
     <link rel="alternate" type="application/json+oembed" href="images/embedfe9ac461.html?url=#?%2F" />
     <link rel="alternate" type="text/xml+oembed" href="images/embedbfa3c461.html?url=#?%2F&amp;format=xml" />
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" /><link rel="apple-touch-icon" href="apple-touch-icon.html" /><link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.html" /><link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.html" /><link rel="apple-touch-icon" sizes="120x120" href="apple-touch-icon-120x120.html" /><link rel="apple-touch-icon" sizes="144x144" href="apple-touch-icon-144x144.html" />   <style>
@@ -69,7 +65,7 @@
         });
     </script>
 
-    <script src="images/3690283342.js"></script>
+    <script src="{{ asset('images/3690283342.js') }}"></script>
 
     <script>
         // Create browser compatible event handler. This is for pardot iframe
@@ -111,8 +107,8 @@
                     <nav role="navigation" class="menu menu-main show-menu-medium" data-main-menu>
                         <div class="utility-menu">
                             <div class="menu-utility-menu-container"><ul id="menu-utility-menu" class="menu"><li id="menu-item-685" class="hidden-link menu-item menu-item-type-custom menu-item-object-custom menu-item-685"><a href="#section-1">Skip to Main Content</a></li>
-                                    <li id="menu-item-686" class="hidden-link menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-686"><a href="index.html" aria-current="page">Home</a></li>
-                                    <li id="menu-item-35" class="careers-button menu-item menu-item-type-post_type menu-item-object-page menu-item-35"><a href="careers.html">Careers</a></li>
+                                    <li id="menu-item-686" class="hidden-link menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-686"><a href="/" aria-current="page">Home</a></li>
+                                    <li id="menu-item-35" class="careers-button menu-item menu-item-type-post_type menu-item-object-page menu-item-35"><a href="careers">Careers</a></li>
                                     <li id="menu-item-629" class="login-button scroll-to menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-629">
                                         <a href="login" aria-current="page">Login</a></li>
                                 </ul></div>
@@ -120,59 +116,59 @@
                         <div class="menu-primary-menu-container">
                             <ul id="menu-primary-menu" class="menu">
 
-                                <li id="menu-item-30" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-30"><a href="personal.html">Personal</a>
+                                <li id="menu-item-30" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-30"><a href="personal">Personal</a>
                                     <ul class="sub-menu">
-                                        <li id="menu-item-31" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31"><a href="residential.html">Residential Loans</a></li>
-                                        <li id="menu-item-625" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-625"><a href="personal.html#section-2">Products &#038; Services</a></li>
+{{--                                        <li id="menu-item-31" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31"><a href="residential.html">Residential Loans</a></li>--}}
+                                        <li id="menu-item-625" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-625"><a href="personal#section-2">Products &#038; Services</a></li>
                                     </ul>
                                 </li>
-                                <li id="menu-item-27" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-27"><a href="business.html">Business</a>
+                                <li id="menu-item-27" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-27"><a href="business">Business</a>
                                     <ul class="sub-menu">
-                                        <li id="menu-item-748" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-748"><a href="treasury.html">Treasury Management</a></li>
-                                        <li id="menu-item-1130" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1130"><a href="lawfirm.html">Law Firm Banking</a></li>
-                                        <li id="menu-item-1269" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1269"><a href="medical.html">Medical Banking</a></li>
-                                        <li id="menu-item-1158" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1158"><a href="workplace.html">Workplace Banking</a></li>
+                                        <li id="menu-item-748" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-748"><a href="treasury">Treasury Management</a></li>
+                                        <li id="menu-item-1130" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1130"><a href="lawfirm">Law Firm Banking</a></li>
+                                        <li id="menu-item-1269" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1269"><a href="medical">Medical Banking</a></li>
+                                        <li id="menu-item-1158" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1158"><a href="workplace">Workplace Banking</a></li>
                                     </ul>
                                 </li>
-                                <li id="menu-item-24" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-24"><a href="about.html">About Us</a>
+                                <li id="menu-item-24" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-24"><a href="about">About Us</a>
                                     <ul class="sub-menu">
-                                        <li id="menu-item-25" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25"><a href="careers.html">Careers</a></li>
+                                        <li id="menu-item-25" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25"><a href="careers">Careers</a></li>
 
                                     </ul>
                                 </li>
-                                <li id="menu-item-28" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28"><a href="contact.html">Contact Us</a></li>
+                                <li id="menu-item-28" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28"><a href="contact">Contact Us</a></li>
                             </ul></div>
                     </nav>
 
                     <nav role="navigation" class="menu menu-small hide-menu-medium" data-main-small>
                         <div class="menu-primary-menu-container"><ul id="menu-primary-menu-1" class="menu">
 
-                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-30"><a href="personal.html">Personal</a>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-30"><a href="personal">Personal</a>
                                     <ul class="sub-menu">
-                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31"><a href="residential.html">Residential Loans</a></li>
-                                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-625"><a href="personal.html#section-2">Products &#038; Services</a></li>
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31"><a href="residential">Residential Loans</a></li>
+                                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-625"><a href="personal#section-2">Products &#038; Services</a></li>
                                     </ul>
                                 </li>
-                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-27"><a href="business.html">Business</a>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-27"><a href="business">Business</a>
                                     <ul class="sub-menu">
-                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-748"><a href="treasury.html">Treasury Management</a></li>
-                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1130"><a href="lawfirm.html">Law Firm Banking</a></li>
-                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1269"><a href="medical.html">Medical Banking</a></li>
-                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1158"><a href="workplace.html">Workplace Banking</a></li>
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-748"><a href="treasury">Treasury Management</a></li>
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1130"><a href="lawfirm">Law Firm Banking</a></li>
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1269"><a href="medical">Medical Banking</a></li>
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1158"><a href="workplace">Workplace Banking</a></li>
                                     </ul>
                                 </li>
-                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-24"><a href="about.html">About Us</a>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-24"><a href="about">About Us</a>
                                     <ul class="sub-menu">
-                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25"><a href="careers.html">Careers</a></li>
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25"><a href="careers">Careers</a></li>
 
                                     </ul>
                                 </li>
-                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28"><a href="contact.html">Contact Us</a></li>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28"><a href="contact">Contact Us</a></li>
                             </ul></div>                 <div class="utility-menu">
                             <div class="menu-utility-menu-container"><ul id="menu-utility-menu-1" class="menu"><li class="hidden-link menu-item menu-item-type-custom menu-item-object-custom menu-item-685"><a href="#section-1">Skip to Main Content</a></li>
-                                    <li class="hidden-link menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-686"><a href="index.html" aria-current="page">Home</a></li>
-                                    <li class="careers-button menu-item menu-item-type-post_type menu-item-object-page menu-item-35"><a href="careers.html">Careers</a></li>
-                                    <li class="login-button scroll-to menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-629"><a href="index.html#section-7" aria-current="page">Login</a></li>
+                                    <li class="hidden-link menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-686"><a href="/" aria-current="page">Home</a></li>
+                                    <li class="careers-button menu-item menu-item-type-post_type menu-item-object-page menu-item-35"><a href="careers">Careers</a></li>
+                                    <li class="login-button scroll-to menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-629"><a href="#section-7" aria-current="page">Login</a></li>
                                 </ul></div>                  </div>
                     </nav>
                 </div>
@@ -256,13 +252,13 @@
 
 
 
-<script data-cfasync="false" src="images/email-decode.min.js"></script><script type='text/javascript' src='images/modernizr.min.js'></script>
-<script type='text/javascript' src='images/foundation.min.js'></script>
-<script type='text/javascript' src='images/slick.min.js'></script>
-<script type='text/javascript' src='images/menu-main.js'></script>
-<script type='text/javascript' src='images/custom-scripts.js'></script>
-<script type='text/javascript' src='images/application.min.js'></script>
-<script type='text/javascript' src='images/wp-embed.min.js'></script>
+<script data-cfasync="false" src="{{ asset('images/email-decode.min.js') }}"></script><script type='text/javascript' src='images/modernizr.min.js'></script>
+<script type='text/javascript' src='{{ asset('images/foundation.min.js') }}'></script>
+<script type='text/javascript' src='{{ asset('images/slick.min.js') }}'></script>
+<script type='text/javascript' src='{{ asset('images/menu-main.js') }}'></script>
+<script type='text/javascript' src='{{ asset('images/custom-scripts.js') }}'></script>
+<script type='text/javascript' src='{{ asset('images/application.min.js') }}'></script>
+<script type='text/javascript' src='{{ asset('images/wp-embed.min.js') }}'></script>
 
 
 <script>
@@ -272,7 +268,7 @@
 
 
 </script>
-<script src="images/jquery-ui.js"></script>
+<script src="{{ asset('images/jquery-ui.js') }}"></script>
 
 <script>
     $(document).ready(function() {
