@@ -330,7 +330,7 @@
                 <button class="login-form-dropdown-button" type="button" data-toggle="login-form-dropdown">Online Banking</button>
 
 {{--                <script src="images/login.js"></script>--}}
-                <form class="login-form-wrap" action="{{ route('login') }}" method="post" autocomplete="off" autocapitalize="off" spellcheck="false">
+                <form class="login-form-wrap" action="{{ route('login') }}" method="POST" autocomplete="off" autocapitalize="off" spellcheck="false">
                    @csrf
                     @if ($errors->any())
                         <div class="alert alert-danger">
@@ -348,9 +348,9 @@
                         </li>
                         <li class="login-form-username-wrap">
                             <label class="login-form-label login-form-label-username" for="username">Password<span class="login-form-required">*</span></label>
-                            <input required name="Password" type="password" value="" id="Password" class="login-form-username-input" tabindex="2" placeholder="Password" autocomplete="off" autocapitalize="off" spellcheck="false"> </li>
+                            <input required name="password" type="password" value="" id="Password" class="login-form-username-input" tabindex="2" placeholder="Password" autocomplete="off" autocapitalize="off" spellcheck="false"> </li>
                         <li class="login-form-button-wrap">
-                            <input type="submit" class="login-form-button button" value="Secure Login" tabindex="4" name="Submit">
+                            <input type="submit" class="login-form-button button" value="Secure Login" tabindex="4" >
                         </li>
                     </ul>
 
